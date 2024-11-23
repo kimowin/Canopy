@@ -21,28 +21,28 @@ commands.help=Muestra páginas de ayuda.
 commands.help.search.noresult=§cNo se encontraron resultados para '%s'
 commands.help.search.results=§l§aCanopy§r §2Resultados de búsqueda de ayuda para '§r%1§2':%2
 commands.help.page.header=§l§aCanopy§r§2 Pagina de Ayuda: §f%1
-commands.help.infodisplay=Togglable rules for your InfoDisplay.
+commands.help.infodisplay=Reglas alternables para tu InfoDisplay.
 commands.help.rules=Reglas alternables globales.
 commands.help.extension.rules=Reglas alternables para su §a%s§2.
 commands.help.extension.commands=Comandos para §a%s§2.
 
-####      v Needs Translating v      ####
+commands.camera=Coloca una cámara, mírala o utiliza un modo espectador apto para supervivencia.
+commands.camera.place=Coloca una cámara en su posición actual. (Alias: cp)
+commands.camera.view=Alterna la visualización de la última ubicación de su cámara. (Alias: cv)
+commands.camera.spectate=Alterna un modo espectador apto para supervivencia. (Alias: cs)
+commands.camera.place.viewing=§cNo puedes colocar una cámara mientras estás viendo una.
+commands.camera.place.success=§7Cámara colocada en %s.
+commands.camera.view.spectating=§cNo puedes ver una cámara mientras eres espectador.
+commands.camera.view.fail=§cAún no has colocado una cámara.
+commands.camera.view.dimension=§cPor favor vaya %s para ver esta cámara.
+commands.camera.view.started=§aViendo la cámara
+commands.camera.view.ended=§7Vista de cámara finalizada
+commands.camera.spectate.viewing=§cNo puedes observar mientras miras una cámara.
+commands.camera.spectate.gamemode=§cNo puedes cambiar tu modo de juego mientras eres espectador.
+commands.camera.spectate.started=§aEspectador
+commands.camera.spectate.ended=§7Espectador terminado
 
-commands.camera=Place a camera, view it, or use a survival-friendly spectator mode.
-commands.camera.place=Places a camera at your current location. (Alias: cp)
-commands.camera.view=Toggles viewing your latest camera placement. (Alias: cv)
-commands.camera.spectate=Toggles a survival-friendly spectator mode. (Alias: cs)
-commands.camera.place.viewing=§cYou cannot place a camera while viewing one.
-commands.camera.place.success=§7Camera placed at %s.
-commands.camera.view.spectating=§cYou cannot view a camera while spectating.
-commands.camera.view.fail=§cYou have not placed a camera yet.
-commands.camera.view.dimension=§cPlease go to %s to view this camera.
-commands.camera.view.started=§aViewing camera
-commands.camera.view.ended=§7Camera view ended
-commands.camera.spectate.viewing=§cYou cannot spectate while viewing a camera.
-commands.camera.spectate.gamemode=§cYou cannot change your gamemode while spectating.
-commands.camera.spectate.started=§aSpectating
-commands.camera.spectate.ended=§7Spectating ended
+####      v Needs Translating v      ####
 
 commands.canopy=Enable or disable a rule.
 
