@@ -42,23 +42,23 @@ commands.camera.spectate.gamemode=§cNo puedes cambiar tu modo de juego mientras
 commands.camera.spectate.started=§aEspectador
 commands.camera.spectate.ended=§7Espectador terminado
 
+commands.canopy=Activar o desactivar una regla.
+
+commands.changedimension=Te teletransporta a una dimensión específica.
+commands.changedimension.notfound=§cDimensión no válida. Utilice uno de estos: %s
+commands.changedimension.success.coords=§7Teletransportado a %1 en la dimensión %2.
+commands.changedimension.success=§7Cambiaste a la dimensión %s.
+commands.changedimension.fail.coords=§cCoordenadas no válidas. Proporcione todos los valores x, y, z o ninguno.
+
+commands.claimprojectiles=Cambia el propietario de todos los proyectiles dentro de un radio.
+commands.claimprojectiles.fail.nonefound=§7No se encontraron proyectiles dentro del alcance. (%s bloques).
+commands.claimprojectiles.success.self=§7Se te cambió la propiedad de %1 proyectiles dentro de %2 bloques.
+commands.claimprojectiles.success.other=§7Se cambió el propietario de %1 proyectiles dentro de %2 bloques de %3.
+
+commands.cleanup=Elimina todos los objetos y orbes de experiencia dentro de un radio. (Alias: k)
+commands.cleanup.success=§7Limpió %1 entidades.
+
 ####      v Needs Translating v      ####
-
-commands.canopy=Enable or disable a rule.
-
-commands.changedimension=Teleports you to the specified dimension.
-commands.changedimension.notfound=§cInvalid dimension. Please use one of these: %s
-commands.changedimension.success.coords=§7Teleported to %1 in %2 dimension.
-commands.changedimension.success=§7Changed to %s dimension.
-commands.changedimension.fail.coords=§cInvalid coordinates. Please provide all x, y, z numeric values or none.
-
-commands.claimprojectiles=Changes the owner of all projectiles within a radius.
-commands.claimprojectiles.fail.nonefound=§7No projectiles found in range (%s blocks).
-commands.claimprojectiles.success.self=§7Successfully became the owner of %1 projectiles within %2 blocks of you.
-commands.claimprojectiles.success.other=§7Successfully changed the owner of %1 projectiles within %2 blocks of %3.
-
-commands.cleanup=Removes all items and experience orbs within a radius. (Alias: k)
-commands.cleanup.success=§7Cleaned up %s entities.
 
 commands.counter=Manages hopper counters. (Alias: ct)
 commands.counter.channel.notfound=§cInvalid color: %s. Please use one of the wool block colors.
