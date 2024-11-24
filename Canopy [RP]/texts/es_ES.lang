@@ -58,8 +58,6 @@ commands.claimprojectiles.success.other=§7Se cambió el propietario de %1 proye
 commands.cleanup=Elimina todos los objetos y orbes de experiencia dentro de un radio. (Alias: k)
 commands.cleanup.success=§7Limpió %1 entidades.
 
-####      v Needs Translating v      ####
-
 commands.counter=Maneja los contadores de embudos. (Alias: ct)
 commands.counter.channel.notfound=§cColor no válida: %s. Utilice un color de lana.
 commands.counter.query=Muestra el recuento y las tasas del contador de embudo para el color especificado.
@@ -67,26 +65,28 @@ commands.counter.query.empty=§7No hay contadores de embudos en uso.
 commands.counter.query.channel=§7Objetos para %1§7 (%2%3 min.), total: §f%4§7, (§f%5§7):
 commands.counter.realtime=Muestra el recuento y las tasas, pero utiliza tiempo real en lugar de ticks.
 commands.counter.mode=Establece el modo del contador de embudo.
-commands.counter.mode.notfound=§cInvalid mode: '%1'. Please use one of the following modes: %2
-commands.counter.mode.single.success=§7Hopper Counter %1§7 mode: %2
-commands.counter.mode.single.success.actionbar=[%1] Set %2 hopper counter mode to %3
-commands.counter.mode.all.success=§7All Hopper Counters mode: %s
-commands.counter.mode.all.success.actionbar=[%1] Set all hopper counters mode to %2
-commands.counter.reset=Resets all hopper counters and restarts the timer.
-commands.counter.reset.single=§7Reset and time restarted: %s
-commands.counter.reset.single.actionbar=[%1] Reset %2 hopper counter.
-commands.counter.reset.all=§7All channels have been reset and hopper counter timer started.
-commands.counter.reset.all.actionbar=[%s] Reset all hopper counters.
+commands.counter.mode.notfound=§cModo no válido: '%1'. Utilice uno de los siguientes modos: %2
+commands.counter.mode.single.success=§7Modo contador de embudo %1§7: %2
+commands.counter.mode.single.success.actionbar=[%1] Establecer %2 modo contador de embudo en %3
+commands.counter.mode.all.success=§7Modo todos los contadores de embudos: %s
+commands.counter.mode.all.success.actionbar=[%1] Establecer el modo de todos los contadores de embudos en %2
+commands.counter.reset=Restablece todos los contadores de embudos y reinicia el temporizador.
+commands.counter.reset.single=§7Restablecer y temporizador reiniciado: %s
+commands.counter.reset.single.actionbar=[%1] Restablece contador de embudo %2.
+commands.counter.reset.all=§7Todos los canales se han reiniciado y se han iniciado contador de embudo timer.
+commands.counter.reset.all.actionbar=[%s] Restablece todos los contadores de embudos.
 
-commands.data=Displays information about the block or entity you are looking at.
-commands.data.notarget.id=§cNo entity found with id '%2'.
-commands.data.properties=§aProperties:§r %s
-commands.data.states=§aStates:§r %s
-commands.data.components=§aComponents:§r %s
-commands.data.tags=§aTags:§r %s
-commands.data.dynamicProperties=§aDynamicProperties:§r %1 total byte count: %2
-commands.data.effects=§aEffects:§r %s
-commands.data.other=§aOther:§r head location: %1 rotation: [%2, %3], velocity: %4, view direction: %5
+commands.data=Muestra información sobre el bloque o entidad que estás viendo.
+commands.data.notarget.id=§cNo se han encontrado entidades con id '%2'.
+commands.data.properties=§aPropiedades:§r %s
+commands.data.states=§aEstados:§r %s
+commands.data.components=§aComponentes:§r %s
+commands.data.tags=§aEtiquetas:§r %s
+commands.data.dynamicProperties=§aDynamicProperties:§r %1 recuento total de bytes: %2
+commands.data.effects=§aEfectos:§r %s
+commands.data.other=§aOtra:§r posición de la cabeza: %1 rotación: [%2, %3], velocidad: %4, dirección de vista: %5
+
+####      v Needs Translating v      ####
 
 commands.distance=Calculates the distance between two locations. (Alias: d)
 commands.distance.target=Calculates distance between you and the block or entity you are looking at.
