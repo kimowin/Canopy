@@ -1,4 +1,4 @@
-## vanilla
+ ## vanilla
 entity.canopy:probe.name=Canopy Probe
 entity.canopy:rideable.name=Canopy Montable
 action.hint.exit.canopy:rideable=Agachar para pararse
@@ -60,13 +60,13 @@ commands.cleanup.success=§7Limpió %1 entidades.
 
 ####      v Needs Translating v      ####
 
-commands.counter=Manages hopper counters. (Alias: ct)
-commands.counter.channel.notfound=§cInvalid color: %s. Please use one of the wool block colors.
-commands.counter.query=Displays the count and rates of the hopper counter for the specified color.
-commands.counter.query.empty=§7There are no hopper counters in use.
-commands.counter.query.channel=§7Items for %1§7 (%2%3 min.), total: §f%4§7, (§f%5§7):
-commands.counter.realtime=Displays count and rates, but uses real-world time instead of tick-based time.
-commands.counter.mode=Sets the mode of a hopper counter.
+commands.counter=Maneja los contadores de embudos. (Alias: ct)
+commands.counter.channel.notfound=§cColor no válida: %s. Utilice un color de lana.
+commands.counter.query=Muestra el recuento y las tasas del contador de embudo para el color especificado.
+commands.counter.query.empty=§7No hay contadores de embudos en uso.
+commands.counter.query.channel=§7Objetos para %1§7 (%2%3 min.), total: §f%4§7, (§f%5§7):
+commands.counter.realtime=Muestra el recuento y las tasas, pero utiliza tiempo real en lugar de ticks.
+commands.counter.mode=Establece el modo del contador de embudo.
 commands.counter.mode.notfound=§cInvalid mode: '%1'. Please use one of the following modes: %2
 commands.counter.mode.single.success=§7Hopper Counter %1§7 mode: %2
 commands.counter.mode.single.success.actionbar=[%1] Set %2 hopper counter mode to %3
