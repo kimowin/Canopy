@@ -88,13 +88,13 @@ commands.data.other=§aOtra:§r posición de la cabeza: %1 rotación: [%2, %3], 
 
 ####      v Needs Translating v      ####
 
-commands.distance=Calculates the distance between two locations. (Alias: d)
-commands.distance.target=Calculates distance between you and the block or entity you are looking at.
-commands.distance.fromto=Calculates the distance between two locations.
-commands.distance.from=Saves a location to calculate distance from.
-commands.distance.from.success=§7Saved location: %s
-commands.distance.to=Calculates the distance from the saved location to the specified location.
-commands.distance.to.fail.nosave=§cNo saved location found. Save a location with: %sdistance from [x y z]
+commands.distance=Calcula la distancia entre dos ubicaciones. (Alias: d)
+commands.distance.target=Calcula la distancia entre usted y el bloque o entidad que está mirando.
+commands.distance.fromto=Calcula la distancia entre dos ubicaciones.
+commands.distance.from=Guarda una ubicación para calcular la distancia desde.
+commands.distance.from.success=§7Ubicación guardada: %s
+commands.distance.to=Calcula la distancia desde la ubicación guardada hasta la ubicación especificada.
+commands.distance.to.fail.nosave=§cUbicación guardada no encontrada. Guarde una ubicación con: %sdistancia desde [x y z]
 commands.distance.target.notfound=§cNo block or entity found to calculate distance from.
 commands.distance.cartesian=§7Cartesian: §r§l%s§r
 commands.distance.cylindrical=§7Cartesian(XZ): §r§l%s§r
