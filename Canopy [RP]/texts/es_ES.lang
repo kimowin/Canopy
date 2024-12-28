@@ -86,8 +86,6 @@ commands.data.dynamicProperties=§aDynamicProperties:§r %1 recuento total de by
 commands.data.effects=§aEfectos:§r %s
 commands.data.other=§aOtra:§r posición de la cabeza: %1 rotación: [%2, %3], velocidad: %4, dirección de vista: %5
 
-####      v Needs Translating v      ####
-
 commands.distance=Calcula la distancia entre dos ubicaciones. (Alias: d)
 commands.distance.target=Calcula la distancia entre usted y el bloque o entidad que está mirando.
 commands.distance.fromto=Calcula la distancia entre dos ubicaciones.
@@ -95,22 +93,24 @@ commands.distance.from=Guarda una ubicación para calcular la distancia desde.
 commands.distance.from.success=§7Ubicación guardada: %s
 commands.distance.to=Calcula la distancia desde la ubicación guardada hasta la ubicación especificada.
 commands.distance.to.fail.nosave=§cUbicación guardada no encontrada. Guarde una ubicación con: %sdistancia desde [x y z]
-commands.distance.target.notfound=§cNo block or entity found to calculate distance from.
+commands.distance.target.notfound=§cNo se encontró ningún bloque o entidad para calcular la distancia.
 commands.distance.cartesian=§7Cartesian: §r§l%s§r
 commands.distance.cylindrical=§7Cartesian(XZ): §r§l%s§r
 commands.distance.manhattan=§7§7Manhattan: §r§l%s§r
 
-commands.entitydensity=Find entity-dense areas in a dimension.
-commands.entitydensity.fail.noentities=§7No dense areas found in %s. No entities in the dimension?
-commands.entitydensity.fail.dimension=§cInvalid dimension. Please use one of these: %s
-commands.entitydensity.fail.gridsize=§cInvalid grid size. Please use a value between 1 and 2048. Recommended: 100-1024.
-commands.entitydensity.success.header=§7Entity-dense areas in %1 (grid size %2x%3):
-commands.entitydensity.success.area=§7- %1 entities at %2, %3
+commands.entitydensity=Encuentra áreas densas en entidades en una dimensión.
+commands.entitydensity.fail.noentities=§7No se encontraron áreas densas en %s. ¿No hay entidades en la dimensión?
+commands.entitydensity.fail.dimension=§cDimensión no válido. Utilice uno de estos: %s
+commands.entitydensity.fail.gridsize=§cTamaño de rejilla no válido. Utilice un valor entre 1 y 2048. Recomendado: 100-1024.
+commands.entitydensity.success.header=§7Áreas densas en entidades en %1 (tamaño de rejilla %2x%3):
+commands.entitydensity.success.area=§7- %1 entidades en %2, %3
 
-commands.gamemode.s=Set your gamemode to survival.
-commands.gamemode.a=Set your gamemode to adventure.
-commands.gamemode.c=Set your gamemode to creative.
-commands.gamemode.sp=Set your gamemode to spectator.
+commands.gamemode.s=Define tu modo de juego en supervivencia.
+commands.gamemode.a=Define tu modo de juego en adventura.
+commands.gamemode.c=Define tu modo de juego en creativo.
+commands.gamemode.sp=Define tu modo de juego en espectador.
+
+####      v Needs Translating v      ####
 
 commands.health=Displays the server's current TPS, MSPT, and entity counts.
 commands.health.fail.mspt=§cCould not compute MSPT. Please report this error.
