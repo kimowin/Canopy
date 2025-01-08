@@ -110,43 +110,43 @@ commands.gamemode.a=Define tu modo de juego en adventura.
 commands.gamemode.c=Define tu modo de juego en creativo.
 commands.gamemode.sp=Define tu modo de juego en espectador.
 
+commands.health=Muestra los TPS, MSPT y recuentos de entidades actuales del servidor.
+commands.health.fail.mspt=§cNo se pudo calcular MSPT. Por favor reporte este error.
+
+commands.info=Alterna las reglas de InfoDisplay. (Alias: i)
+commands.info.allupdated=%s§r§7 Todas de reglas de InfoDisplay.
+
+commands.jump=Te teletransporta al bloque que estás mirando. (Alias: j)
+commands.jump.fail.noblock=§cNo se encontró ningún bloque para TP.
+
+commands.log=Registra el movimiento del bloque de gravedad, proyectil y tnt.
+commands.log.precision=§7Precisión de registro establecida en %s.
+commands.log.started=§7Se inició el registro de %s.
+commands.log.stopped=§7Se dejó de registrar %s.
+
+commands.peek=Examina el inventario de un objetivo y, opcionalmente, resalta los objetos que coinciden con una consulta.
+commands.peek.fail.unloaded=§cEl objetivo en %s está descargado.
+commands.peek.fail.noinventory=§cNo se encontró inventario en %1 a las %2.
+commands.peek.fail.noitems=§No se encontraron inventarios en %1 a las %2.
+commands.peek.query.cleared=§7Consulta de mirada eliminada.
+commands.peek.query.set=§7Consulta de mirada establecer en '%s'
+
+commands.pos=Muestra tu posición actual o la posición de otro jugador.
+commands.pos.self=§aTu posición: §f%s
+commands.pos.other=§aPosición de %1: §f%2
+commands.pos.dimension=§7Dimensión: §7%s
+commands.pos.relative.overworld=§7Posición relativa de la Mundo superior: §a%s
+commands.pos.relative.nether=§7Posición relativa de la Inframundo: §c%s
+
+commands.removeentity=Eliminar la entidad que estás mirando o por id.
+commands.removeentity.fail.player=§cNo se pueden eliminar jugadores.
+commands.removeentity.fail.noid=§cNo se encontró ninguna entidad con id '%s'.
+commands.removeentity.success=§7Se eliminó %1 con id '%2'.
+
+commands.resetall=Restablece todas las reglas y datos de §lCanopy§r§8. Utilícelo con precaución.
+commands.resetall.success=§7Se han restablecido todas las propiedades §lCanopy§r§8 para los jugadores y el mundo.
+
 ####      v Needs Translating v      ####
-
-commands.health=Displays the server's current TPS, MSPT, and entity counts.
-commands.health.fail.mspt=§cCould not compute MSPT. Please report this error.
-
-commands.info=Toggle InfoDisplay rules. (Alias: i)
-commands.info.allupdated=%s§r§7 all InfoDisplay rules.
-
-commands.jump=Teleport to the block you are looking at. (Alias: j)
-commands.jump.fail.noblock=§cNo block found to jump to.
-
-commands.log=Log tnt, projectile, and falling block movement.
-commands.log.precision=§7Log precision set to %s.
-commands.log.started=§7Started logging %s.
-commands.log.stopped=§7Stopped logging %s.
-
-commands.peek=Peek into a target's inventory and optionally highlight items that match a query.
-commands.peek.fail.unloaded=§cTarget at %s is unloaded.
-commands.peek.fail.noinventory=§cNo inventory found in %1 at %2.
-commands.peek.fail.noitems=§cNo items found in %1 at %2.
-commands.peek.query.cleared=§7Peek query cleared.
-commands.peek.query.set=§7Peek query set to '%s'.
-
-commands.pos=Shows your current position, or the position of another player.
-commands.pos.self=§aYour position: §f%s
-commands.pos.other=§a%1's position: §f%2
-commands.pos.dimension=§7Dimension: §7%s
-commands.pos.relative.overworld=§7Relative Overworld position: §a%s
-commands.pos.relative.nether=§7Relative Nether position: §c%s
-
-commands.removeentity=Instantly remove the entity you are looking at or by id.
-commands.removeentity.fail.player=§cCannot remove players.
-commands.removeentity.fail.noid=§cNo entity found with id '%s'.
-commands.removeentity.success=§7Removed %1 with id '%2'.
-
-commands.resetall=Resets all §lCanopy§r§8 rules and data. Use with caution.
-commands.resetall.success=§7All §lCanopy§r§8 player and world dynamic properties have been reset.
 
 commands.spawn=Spawn command for tracking and mocking spawns.
 commands.spawn.entities=Displays a list of all entities & their positions in the world.
